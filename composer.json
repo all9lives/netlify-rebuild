@@ -1,0 +1,11 @@
+{
+  "name": "all9lives/netlify-rebuild",
+  "type": "wordpress-plugin",
+  "homepage": "https://github.com/all9lives/netlify-rebuild",
+  "license": "GPL-2.0",
+  "description": "A simple WordPress plugin which makes a POST request to a Netlify webhook (or any webhook for that matter) on post save. It only runs if publishing a post for the first time, or updating a published post.",
+  "keywords": ["plugin","wordpress","webhook","netlify","composer"],
+  "require": {
+    "composer/installers": "^1.0.6"
+  }
+}
